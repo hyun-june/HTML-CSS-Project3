@@ -41,11 +41,28 @@ body{
 }
 
 #input-zone{
-    width: 580px;
+    width: 500px;
     height: 45px;
     border: 1px solid #dfe1e5;
     border-radius: 24px;
+    padding: 0px 40px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
+
+.fa-solid{
+    color: #dfe1e5;
+}
+
+#mic-icon{
+    position: relative;
+    right: 40px;
+}
+
+#search-icon{
+    position: relative;
+    left: 40px;
+}
+
 
 .btn-area{
     margin-top: 20px;
@@ -77,15 +94,13 @@ body{
     text-decoration: none;
 }
 
-.fa-solid{
-    color: #dfe1e5;
-}
 
 /* Footer CSS */
 .footer-section{
     position: absolute;
     bottom: 0px;
     width: 100%;
+    background-color: #f2f2f2;
 }
 
 .footer-section1{
