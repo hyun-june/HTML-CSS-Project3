@@ -1,0 +1,122 @@
+body{
+    display: contents;
+    font-family: Arial, sans-serif;
+}
+/* Nav CSS */
+.nav-section{
+    float: right;
+    margin: 20px;
+}
+
+.nav-item{
+    text-decoration: none;
+    color:#000000de;
+    font-size: 13px;
+    margin-right: 20px;
+}
+
+#nav-img{
+    position: relative;
+    top: 7px;
+}
+
+
+.nav-item:hover{
+    text-decoration: underline;
+}
+
+/* Main CSS */
+.main{
+    margin-top: 260px;
+    text-align: center;
+}
+
+#main-img{
+    width: 280px;
+    height: 100px;
+}
+
+.input-area{
+    margin-top: 20px;
+}
+
+#input-zone{
+    width: 580px;
+    height: 45px;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+}
+
+.btn-area{
+    margin-top: 20px;
+}
+
+.main-btn {
+    height: 36px;
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    padding: 0 16px;
+    margin: 11px 4px;
+  }
+
+.main-btn:hover{
+    border: 1px solid lightgray;
+    box-shadow: 0 0.5em 0.5em -0.4em gray;
+    cursor: pointer;
+  }
+
+.lang-area{
+    margin-top: 10px;
+    font-size: 13px;
+}
+
+.lang-area>a{
+    color: blue;
+    text-decoration: none;
+}
+
+.fa-solid{
+    color: #dfe1e5;
+}
+
+/* Footer CSS */
+.footer-section{
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}
+
+.footer-section1{
+    border-bottom: 1px solid #dadce0;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 54);
+    padding: 15px 30px;
+}
+
+.footer-section2{
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    font-size: 15px;
+    padding: 15px 30px;
+}
+
+.footer-item{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 54);
+    color: #202124;
+}
+
+.footer-item:hover{
+    text-decoration: underline;
+}
+
+.section2-left>a{
+    margin-right: 15px;
+}
+
+.section2-right>a{
+    margin-left:15px
+}
