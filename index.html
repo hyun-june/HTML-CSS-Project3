@@ -9,6 +9,7 @@
 </head>
 <body>
     <div class="nav-section">
+        <i class="fa-solid fa-circle-half-stroke" id="map-btn"></i>
         <a href="#" class="nav-item">Gmail</a>
         <a href="#" class="nav-item">Images</a>
         <img src="https://www.svgrepo.com/show/490989/bento-menu.svg" alt="" width="25px" id="nav-img">
@@ -25,7 +26,7 @@
             <button class="main-btn">I'm Feeling Lucky</button>
         </div>
         <div class="lang-area">
-            Google offered in: <a href="#">한국어</a>
+            Google offered in: <div id="google_translate_element"></div>
         </div>
     </div>
     <div class="footer-section">
@@ -47,5 +48,7 @@
         </div>
     </div>
 </body>
-<script src="index.js"></script>
+
+<script src="main.js"></script>
+<script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 </html>

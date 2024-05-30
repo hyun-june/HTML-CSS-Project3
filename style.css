@@ -1,11 +1,12 @@
 body{
-    display: contents;
     font-family: Arial, sans-serif;
+    margin: 0px;
 }
+
 /* Nav CSS */
 .nav-section{
-    float: right;
-    margin: 20px;
+    text-align: right;
+    padding: 10px 10px;
 }
 
 .nav-item{
@@ -20,6 +21,9 @@ body{
     top: 7px;
 }
 
+#map-btn{
+    margin-right: 10px;
+}
 
 .nav-item:hover{
     text-decoration: underline;
@@ -87,11 +91,13 @@ body{
 .lang-area{
     margin-top: 10px;
     font-size: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.lang-area>a{
-    color: blue;
-    text-decoration: none;
+#google_translate_element{
+    padding-left: 10px;
 }
 
 
@@ -135,3 +141,19 @@ body{
 .section2-right>a{
     margin-left:15px
 }
+
+/* darkmode CSS */
+
+.dark-mode{
+    background-color: #2e2e2e;
+    color: #ced4da;
+}
+
+body.dark-mode .nav-item {
+    color: #ced4da;
+}
+
+body.dark-mode #nav-img {
+    background-color: #999999;
+}
+
