@@ -9,6 +9,23 @@
 </head>
 <body>
     <div class="nav-section">
+        <input type="checkbox" id="modal">
+        <label for="modal" class="modal-btn"><i class="fa-solid fa-note-sticky"></i></i></label>
+        <div class="dialog">
+            <div class="tb">
+                <div class="inner">
+                    <div class="top">
+                        <div class="title">Memo</div>
+                        <label for="modal" class="close">&times;</label>
+                    </div>
+                    <div id="memo-list">
+                        
+                    </div>
+                    <input type="text" id="memo-input" placeholder="내용을 입력해주세요.">
+                    <button id="save-memo"><i class="fa-solid fa-plus"></i></button>
+                </div>
+            </div>
+        </div>
         <i class="fa-solid fa-circle-half-stroke" id="map-btn"></i>
         <a href="#" class="nav-item">Gmail</a>
         <a href="#" class="nav-item">Images</a>
